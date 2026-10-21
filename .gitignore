@@ -1,0 +1,25 @@
+# C# build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.cache
+
+# Visual Studio
+.vs/
+
+# temp
+*.bak
+*.tmp
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# shipped binaries are intentional
+!*.exe
+
+# repo root ignores *.py as temp scripts; this project ships Python sources
+!*.py
