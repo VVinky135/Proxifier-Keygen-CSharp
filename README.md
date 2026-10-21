@@ -21,10 +21,16 @@ Original implementation: <https://github.com/y9nhjy/Proxifier-Keygen>. Contact u
 |------|------|
 | `Pro_Keygen.py` | 原始 Python 版生成器 |
 | `Pro_Checker.py` | 校验算法（逆向还原，用于验证 key） |
-| `csharp/ui/` | C# 移植版 + WinForms 图形界面 |
+| `csharp/ui/Keygen.cs` | 算法核心（CLI 与 GUI 共用） |
+| `csharp/ui/Pro_Keygen.cs` | 命令行入口 |
+| `csharp/ui/Pro_KeygenUI.cs` | WinForms 图形界面入口 |
+| `csharp/ui/Pro_Keygen.exe` | **命令行版可执行文件** |
+| `csharp/ui/Pro_KeygenUI.exe` | **图形界面版可执行文件** |
 | `csharp/ui/README.md` | C# 版详细说明（编译、算法、验证） |
 
 ## 快速开始
+
+两个 exe 都在仓库的 **`csharp/ui/`** 目录下，克隆或下载后直接双击运行，无需安装。
 
 ### Windows — 图形界面
 
